@@ -51,7 +51,7 @@ export const Navbar = () => {
     <div
       id="navbar"
       className={clsx(
-        'fixed inset-x-0 top-0 z-40 h-16 transition-colors duration-300',
+        'fixed inset-x-0 top-0 z-40 h-16 transition-colors duration-300 bg-gradient-to-r from-indigo-200',
         isSticky || router.asPath !== '/'
           ? 'border-b border-slate-200 bg-white'
           : 'bg-transparent'

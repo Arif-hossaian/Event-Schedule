@@ -7,15 +7,16 @@ import men2 from '../../public/images/Rectangle 6.png';
 const Hero = () => {
   return (
     <div
-      style={{
-        backgroundColor:
-          'linear-gradient(90deg, rgba(255,255,255,1) -10.73%%, rgba(9,9,121,1) 64%, rgba(0,212,255,1) 100%)',
-        height: '100vh',
-      }}
+      // style={{
+      //   backgroundColor:
+      //     'linear-gradient(90deg, rgba(255,255,255,1) -10.73%%, rgba(9,9,121,1) 64%, rgba(0,212,255,1) 100%)',
+      //   height: '100vh',
+      // }}
+      className="bg-gradient-to-r from-indigo-200  h-screen"
     >
-      <section className="mx-auto max-w-screen-lg py-4 px-4 md:px-8 mt-20 -z-100">
+      <section className="mx-auto max-w-screen-lg py-4 px-4 md:px-8 mt-16 -z-100">
         <div>
-          <Image src={bgSvg} alt="svg" layout="fill" />
+          <Image src={bgSvg} alt="svg" layout="fill" objectFit="contain" />
         </div>
         <h1 className="text-center md:text-7xl text-lg font-bold">
           <span className="md:ml-32 ml-10">React</span>
